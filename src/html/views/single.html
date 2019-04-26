@@ -1,0 +1,55 @@
+<% var data = {
+  title: "Single page",
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<main class="singlePageContainer">
+	<div class="singleHeader"></div>
+	<div class="singleContent">
+		<div class="container">
+			<div class="mainSingleBanner">
+				<img src="img/main1.jpg" alt="placeholder_img">
+				<div>
+					<h1>ПРЕИМУЩЕСТВА ОБУЧЕНИЯ В УКРАИНЕ</h1>
+					<hr class="shortLine">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-centered">
+					<div class="contentWrapper">
+						<p>Украина — гостеприимная и красивая страна с европейской системой образования. В украинских университетах сегодня учится более 63 тысяч иностранных студентов, которые приехали из 152 стран мира. И каждый год их количество растет. В украинской системе высшего образования работают учебные заведения разного уровня аккредитации: колледжи, институты, университеты, академии, которые готовят высококлассных специалистов самого разного профиля. Иностранные студенты получают не только теоретические знания, но и приобретают практические навыки. Благодаря сильному преподавательскому составу, развитию и внедрению новых технологий в учебный процесс и образовательную систему в целом, украинские вузы выпускают профессионалов, которые могут повысить престиж своей родной страны.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="section mainContainer sixthMainBlock">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mainTitleSection">
+					<h3>Контакты</h3>
+				</div>
+			</div>
+			<div class="centeredBlock container">
+				<div class="row">
+					<div class="col-md-5">
+						<h5>Связаться с нами</h5>
+						<p>Оставляйте свою заявку и наш менеджер даст консультацию по всем интересующим Вас вопросам.</p>
+						<a href="/" class="freeConsultationBtn">Бесплатная консультация</a>
+						<div class="contactsBlock">
+							<p><strong>8 800 123-45-67</strong>info@ustudy.com</p>
+							<p>Харків, Велика Панасівська, 29</p>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164152.76882145944!2d36.145742928307556!3d49.994727744371495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1556118023877!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</main>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>
